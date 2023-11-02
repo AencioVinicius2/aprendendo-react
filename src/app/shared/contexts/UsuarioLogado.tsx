@@ -8,7 +8,7 @@ interface IUsuarioLogadoContextData {
     nomeDoUsuario: string;
 }
 
-const UsuarioLogadoContext = createContext<IUsuarioLogadoContextData>({} as IUsuarioLogadoContextData);
+export const UsuarioLogadoContext = createContext<IUsuarioLogadoContextData>({} as IUsuarioLogadoContextData);
 
 export const UsuarioLogadoProvidor: React.FC<IUsuarioLogadoContextProps> = ({ children }) => {
 

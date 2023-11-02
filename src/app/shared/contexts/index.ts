@@ -1,1 +1,1 @@
-export * from './UsuarioLegado';
+export * from './UsuarioLogado';
